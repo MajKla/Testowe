@@ -1,1 +1,15 @@
 Rozdzial2
+git config --global user.name mojlogin
+git config --global user.email adres@costam.plmkdir projekt1cd projekt1git initecho To jest tresc nowego pliku. > Rozdzial1.txtgit statusgit add Rozdzial1.txtgit statusgit commitecho To bedzie rozdzial 1. > Rozdzial1.txt
+echo Rozdzial2 > Rozdzial2.txt
+echo Rozdzial3 > Rozdzial3.txt
+git add Rozdzial2.txt Rozdzial3.txt
+git add -ugit commitgit log
+git checkout 667a23c
+git checkout master
+git remote add origin https://github.com/mojlogin/projekt-testowy.git
+git branch -M main
+git push -u origin main
+git add -ugit commit
+git push
+git clone
